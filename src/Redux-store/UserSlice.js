@@ -15,11 +15,11 @@ const UserSlice = createSlice({
   initialState,
   reducers: {
 
-    songRedux:(state, action)=>{
-     state.songCointainer = action.payload.songUrl // use the correct and exact payload property
-    },
+    // songRedux:(state, action)=>{
+    //  state.songCointainer = action.payload.songUrl // use the correct and exact payload property
+    // },
 
-    setTrack: (state, action) => {
+    setTrack: (state, action) => {               //1
       state.track = action.payload;
     },
     setPlayStatus: (state, action) => {
@@ -28,10 +28,12 @@ const UserSlice = createSlice({
     setTime: (state, action) => {
       state.time = action.payload;
     },
-    play: (state) => {
+    play: (state) => {                    //2
       state.playStatus = true;
+      console.log('play');
+      
     },
-    pause: (state) => {
+    pause: (state) => {                     //2
       state.playStatus = false;
     },
     nextTrack: (state) => {
@@ -46,7 +48,7 @@ const UserSlice = createSlice({
 });
 
 export default UserSlice.reducer;
-export const { songRedux, setTrack, setPlayStatus, setTime, play, pause, nextTrack, prevTrack } = UserSlice.actions;
+export const { setTrack, setPlayStatus, setTime, play, pause, nextTrack, prevTrack } = UserSlice.actions;
 
 
 
