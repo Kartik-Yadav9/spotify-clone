@@ -118,7 +118,7 @@ export const songsData = [
     {
         id:0,
         name: "Song One",
-        image: img1,
+        image: img12,
         file:song1,
         desc:"Put a smile on your face with these happy tunes",
         duration:"3:00"
@@ -126,7 +126,7 @@ export const songsData = [
     {
         id:1,
         name: "Song Two",
-        image: img2,
+        image: img7,
         file:song2,
         desc:"Put a smile on your face with these happy tunes",
         duration:"2:20"
@@ -134,7 +134,7 @@ export const songsData = [
     {
         id:2,
         name: "Song Three",
-        image: img3,
+        image: img14,
         file:song3,
         desc:"Put a smile on your face with these happy tunes",
         duration:"2:32"
@@ -158,7 +158,7 @@ export const songsData = [
     {
         id:5,
         name: "Song Six",
-        image: img14    ,
+        image: img3    ,
         file:song3,
         desc:"Put a smile on your face with these happy tunes",
         duration:"2:45"
@@ -166,7 +166,7 @@ export const songsData = [
     {
         id:6,
         name: "Song Seven",
-        image: img7,
+        image: img2,
         file:song1,
         desc:"Put a smile on your face with these happy tunes",
         duration:"2:18"
@@ -174,7 +174,7 @@ export const songsData = [
     {
         id:7,
         name: "Song Eight",
-        image: img12,
+        image: img1,
         file:song2,
         desc:"Put a smile on your face with these happy tunes",
         duration:"2:35"

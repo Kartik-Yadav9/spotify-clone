@@ -43,7 +43,9 @@ const UserSlice = createSlice({
     prevTrack: (state) => {
       const currentIndex = songsData.findIndex(song => song.id === state.track.id);
       state.track = songsData[(currentIndex - 1 + songsData.length) % songsData.length]; // Loop in reverse
-    }
+    },
+
+   
   }
 });
 
