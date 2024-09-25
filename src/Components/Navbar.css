@@ -1,0 +1,84 @@
+/* navbar.css */
+
+.navbar-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+  }
+  
+  .icon-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .cursor-pointer {
+    cursor: pointer;
+  }
+  
+  .nav-items {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+  
+  .explore-btn {
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    padding: 4px 16px;
+    border-radius: 9999px;
+    display: none;
+  }
+  
+  @media (min-width: 768px) {
+    .explore-btn {
+      display: block;
+    }
+  }
+  
+  .install-btn {
+    background-color: black;
+    padding: 4px 12px;
+    border-radius: 9999px;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  
+  .profile-btn {
+    background-color: #9b59b6;
+    color: black;
+    width: 28px;
+    height: 28px;
+    border-radius: 9999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .category-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 16px;
+  }
+  
+  .category-btn {
+    padding: 4px 16px;
+    border-radius: 9999px;
+    cursor: pointer;
+  }
+  
+  .all-btn {
+    background-color: white;
+    color: black;
+  }
+  
+  .music-btn,
+  .podcast-btn {
+    background-color: black;
+    color: white;
+  }
+  

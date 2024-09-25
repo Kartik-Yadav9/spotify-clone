@@ -1,0 +1,28 @@
+/* songItem.css */
+
+.song-item {
+    min-width: 180px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .song-item:hover {
+    background-color: rgba(255, 255, 255, 0.15); /* Equivalent to hover:bg-[#ffffff26] */
+  }
+  
+  .song-item img {
+    border-radius: 8px;
+  }
+  
+  .song-item-title {
+    font-weight: bold;
+    margin: 8px 0 4px 0;
+  }
+  
+  .song-item-desc {
+    color: #cbd5e1; /* Equivalent to text-slate-200 */
+    font-size: 0.875rem; /* Equivalent to text-sm */
+  }
+  

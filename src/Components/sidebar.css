@@ -1,0 +1,98 @@
+/* sidebar.css */
+
+.sidebar-container {
+    width: 25%;
+    height: 100%;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    color: white;
+    display: none;
+  }
+  
+  @media (min-width: 1024px) {
+    .sidebar-container {
+      display: flex;
+    }
+  }
+  
+  .sidebar-top {
+    background-color: #121212;
+    height: 15%;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  
+  .menu-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding-left: 32px;
+    cursor: pointer;
+  }
+  
+  .menu-item p {
+    font-weight: bold;
+    font-family: serif;
+  }
+  
+  .sidebar-bottom {
+    background-color: #121212;
+    height: 85%;
+    border-radius: 8px;
+  }
+  
+  .library-header {
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .library-header-left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .library-actions {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .playlist-card, .podcast-card {
+    padding: 16px;
+    background-color: #242424;
+    margin: 8px;
+    border-radius: 8px;
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 4px;
+    padding-left: 16px;
+  }
+  
+  .playlist-card h1, .podcast-card h1 {
+    margin-bottom: 8px;
+  }
+  
+  .playlist-card p, .podcast-card p {
+    font-weight: 300;
+  }
+  
+  .playlist-button, .podcast-button {
+    padding: 6px 16px;
+    background-color: white;
+    font-size: 15px;
+    color: black;
+    border-radius: 9999px;
+    margin-top: 16px;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,25 @@
+/* episode.css */
+
+.episode-container {
+    min-width: 180px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .episode-container:hover {
+    background-color: #ffffff26;
+  }
+  
+  .episode-image {
+    border-radius: 8px;
+    width: 192px; /* Equivalent to w-48 in Tailwind (48 * 4px = 192px) */
+  }
+  
+  .episode-name {
+    font-weight: bold;
+    margin-top: 8px;
+    margin-bottom: 4px;
+    font-size: 0.875rem; /* Equivalent to text-sm */
+  }
+  

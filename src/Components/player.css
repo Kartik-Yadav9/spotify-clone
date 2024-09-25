@@ -1,0 +1,79 @@
+/* player.css */
+
+.player-container {
+    height: 10%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  
+  .track-info {
+    display: none;
+  }
+
+
+
+
+
+
+
+
+
+  
+  
+  @media (min-width: 1024px) {
+    .track-info {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+  }
+  
+  .track-image {
+    width: 48px;
+  }
+  
+  .controls-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    margin: auto;
+  }
+  
+  .controls-icons {
+    display: flex;
+    gap: 16px;
+  }
+  
+  .control-icon {
+    width: 16px;
+    cursor: pointer;
+  }
+  
+  .seek-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .seek-bg {
+    width: 60vw;
+    max-width: 500px;
+    background-color: #d1d5db; /* Equivalent to gray-300 */
+    border-radius: 9999px;
+    cursor: pointer;
+  }
+  
+  .seek-bar {
+    height: 4px;
+    border: none;
+    width: 0;
+    background-color: #22543d; /* Equivalent to green-800 */
+    border-radius: 9999px;
+  }
+  
